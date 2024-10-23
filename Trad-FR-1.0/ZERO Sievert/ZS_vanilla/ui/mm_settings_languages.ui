@@ -1,0 +1,129 @@
+build UiRectangle {
+	fillColor = c_black
+	fillAlpha = 0.8
+	borderAlpha = 0
+	ltrb = [0, 0, "100%", "100%"]
+
+	build UiText {
+		label = data.settings_title
+		font = "font_munro_64px"
+		x = "49.5%"
+		y = 100
+	}
+
+	build UiBox {
+		ltrb = [0, "25%", "99.5%", "70%"]
+
+		layoutVerticalList = ["center", 20]
+
+		build UiTextButton {
+			label = "English"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","english");
+				SettingsSet("language", "english")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+
+		build UiTextButton {
+			label = "French"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","french");
+				SettingsSet("language", "french")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+		
+		build UiTextButton {
+			label = "Español"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","spanish_es");
+				SettingsSet("language", "spanish_es")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+		
+		build UiTextButton {
+			label = "Español (América Latina)"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","spanish_latam");
+				SettingsSet("language", "spanish_latam")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+		
+		build UiTextButton {
+			label = "português (Brasil)"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","pt_br");
+				SettingsSet("language", "pt_br")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+		
+		build UiTextButton {
+			label = "Deutsch"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","german");
+				SettingsSet("language", "german")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+		
+		build UiTextButton {
+			label = "中文(中华人民共和国)"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","chinese_simplified");
+				SettingsSet("language", "chinese_simplified")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+		
+		build UiTextButton {
+			label = "日本語"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","japanese");
+				SettingsSet("language", "japanese")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+		
+		build UiTextButton {
+			label = "한국어"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				LanguageSet("ZS_vanilla","korean");
+				SettingsSet("language", "korean")
+				UiReplace("main frame", "ZS_vanilla/ui/mm_settings_languages.ui")
+			}
+		}
+
+		build UiTextButton {
+			label = "Back"
+			captureClick = "action"
+			click = fn {
+				CallInherited()
+				SettingsSetWriteToDisk(true)
+				UiReplace("main frame", "ZS_vanilla/ui/mm_sidebar.ui")
+				UiReplace("sidebar frame", "ZS_vanilla/ui/mm_sidebar_settings.ui")
+			}
+		}
+	}
+}
