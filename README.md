@@ -3,7 +3,7 @@
 
 # ZeroSievert-Trad-FR
 
-La traduction française **non officielle** de *Zero Sievert*, en attendant la version officielle.
+La traduction française _**non officielle**_ de Zero Sievert, en attendant la version officielle.
 
 ## Installation
 
