@@ -3,7 +3,6 @@ La traduction française de Zero Sievert NON OFFICIELLE en attendant l'officiell
 
 # Installation
 
-
 Pour ajouter la traduction française:
 0 - Si ce n'est pas encore fait fermer le jeu.
 1 - Extaire le fichier "ZeroSievert-Trad-FR".
@@ -12,3 +11,4 @@ Pour ajouter la traduction française:
 3 - Ensuite mettez le fichier "ZS_vanilla" dans la racine du jeu.
 4 - C'est terminé, bon jeu.
 (5) - Si vous voyez une erreur de traduction n'hésitez pas à le signaler !
+  
