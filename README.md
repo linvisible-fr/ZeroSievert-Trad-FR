@@ -1,7 +1,8 @@
-# ZeroSievert-Trad-FR
-https://i.imgur.com/wDvx6fD.png
+![header](https://github.com/user-attachments/assets/45dfc881-2c1e-443b-9561-42bc87d0b6b1)
 
-## Description
+
+# ZeroSievert-Trad-FR
+
 La traduction française **non officielle** de *Zero Sievert*, en attendant la version officielle.
 
 ## Installation
