@@ -24,4 +24,4 @@ Pour ajouter la traduction française, suivez ces étapes :
 
 4. **C'est terminé !** Bon jeu ! 
 
-5. **Signaler les erreurs :** Si vous rencontrez une erreur de traduction, n'hésitez pas à le signaler !
+5. **Signaler les erreurs :** Si vous rencontrez une erreur de traduction ou autre, n'hésitez pas à le signaler !
