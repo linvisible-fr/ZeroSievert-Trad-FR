@@ -1,6 +1,5 @@
 # ZeroSievert-Trad-FR
-
-[header](https://github.com/user-attachments/assets/fe2fbc7c-8578-46fd-a57f-cf18ed1694c7)
+https://github.com/user-attachments/assets/fe2fbc7c-8578-46fd-a57f-cf18ed1694c7
 
 ## Description
 La traduction française **non officielle** de *Zero Sievert*, en attendant la version officielle.
