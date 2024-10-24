@@ -153,7 +153,7 @@ Crow,NPCs,48,Corbeau
 The Networker,NPCs,48,Le réseauteur
 Engineer Volkov,NPCs,48,Ingénieur Volkov
 Igor Kuzmin,NPCs,48,Igor Kuzmin
-Ghoul,NPCs,48,Ghoul
+Ghoul,NPCs,48,Goule
 Soldier Yakim Borisov,NPCs,48,Soldat Yakim Borisov
 Soldier Vadim Borisov,NPCs,48,Soldat Vadim Borisov
 Soldier Kodiak Vlasov,NPCs,48,Soldat Kodiak Vlasov
@@ -214,7 +214,7 @@ Bag,Stats,48,Sac
 cabinet,Stats,48,Armoire
 Safe,Stats,48,Coffre-fort
 Wood box,Stats,48,Boîte en bois
-Hidden stash,Stats,48,Cache caché
+Hidden stash,Stats,48,Réserve cachée
 Weapon box,Stats,48,Boîte à armes
 Attachment box,Stats,48,Boîte à accessoires
 Vending machine,Stats,48,Distributeur automatique
@@ -1324,7 +1324,7 @@ Enter,Interfactions,48,Entrer
 Interact,Interfactions,48,Interagir
 Investigate,Interfactions,48,Enquêter
 Open,Interfactions,48,Ouvrir
-Jam,Interfactions,48,Brouillage
+Jam,Interfactions,48,Enrayement
 Fix,Interfactions,48,Réparer
 Mark,Interfactions,48,Marquer
 place analyzer,Interfactions,48,placer l'analyseur
